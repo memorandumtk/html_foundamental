@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        function myfunction() {
+            for(let i = 5; i >= 1; i--) {
+                let asta = '';
+                for (let j = i; j >= 1; j--) {
+                    asta += '*';
+                }
+                console.log(asta);
+            }
+        }
+        //     let first = Number(document.getElementById("first").value);
+        //     let second = Number(document.getElementById("second").value);
+        //     let result = (first * second);
+        //     document.getElementById("result").value = result;
+    </script>
+</head>
+
+<body>
+    <div>
+        <form>
+            <label for="first">First number
+                <input type="number" id="first" name="first">
+            </label>
+            <label for="second">Second number
+                <input type="number" id="second" name="second">
+            </label>
+            <input type="button" id="btn1" name="submit" value="submit" onclick=myfunction()>
+            <label for="result">
+                <input type="text" id="result" name="result">
+            </label>
+        </form>
+    </div>
+</body>
+
+</html>

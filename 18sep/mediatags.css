@@ -1,0 +1,10 @@
+html{
+    overflow: auto;
+}
+
+video{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}

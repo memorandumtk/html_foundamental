@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script>
+        function myfunction(){
+            let age = Number(document.getElementById("age1").value);
+            let result = (age >= 18) ? "Eligible" : "Not eligible"
+            document.getElementById("res1").value = result;
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="age">Enter your age</label>
+            <input type="number" id="age1" name="age">
+            <label for="result">
+                <input type="text" id="res1" name="result">
+            </label>
+            <input type="button" id="btn1" name="submit" value="submit" onclick=myfunction()>
+        </form>
+    </div>
+</body>
+</html>

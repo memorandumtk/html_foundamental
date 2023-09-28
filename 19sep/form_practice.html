@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_practice</title>
+    <link rel="stylesheet" href="form_practice.css">
+</head>
+<body>
+    <div class="main-div">
+        <h1>Practice</h1>
+        <div class="form-div">
+        <form>
+        <div class="left">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <div>
+                    <label class="name-label" for="firstname">First name</label>
+                    <input id="firstname" type="text" name="firstname">
+                </div>
+                <div>
+                    <label class="name-label" for="lastname">Last name</label>
+                    <input id="lastname" type="text" name="lastname">
+                </div>
+                <div>
+                    <label class="mail-label" for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <div>
+                    <label class="country-label" for="country">Country</label>
+                    <input id="country" type="text" name="country">
+                </div>
+
+                <div>
+                    <label class="address-label" for="address">Address</label>
+                    <textarea id="address" name="address"></textarea>
+                </div>
+                <div>
+                    <label class="phone-label" for="phonenumber">Phone number</label>
+                    <input id="phonenumber" type="number" name="phonenumber" max="10">
+                </div>
+
+                <div>
+                    <label>Hobbies</label>
+                    <input id="hobby1" type="checkbox" name="hobby" value="reading">
+                    <label for="reading">Reading</label>
+                    <input id="hobby2" type="checkbox" name="hobby" value="travelling">
+                    <label for="travelling">Travelling</label>
+                    <input id="hobby3" type="checkbox" name="hobby" value="music">
+                    <label for="music">Music</label>
+                </div>
+
+                <div>
+                    <label class="gender-label" for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <div class="left">
+            <fieldset>
+                <legend>Profesional Info</legend>
+                <div>
+                    <label class="workings-label" for="workings">Are you currently working?</label>
+                    <input id="working1" type="radio" name="working" value="yes">
+                    <label class="working-label" for="yes">Yes</label>
+                    <input id="working2" type="radio" name="working" value="no">
+                    <label class="working-label" for="no">No</label>
+                </div>
+                <div>
+                    <label>Area of expertise</label>
+                    <input id="area1" type="checkbox" name="hobbby" value="html">
+                    <label for="html">HTML</label>
+                    <input id="area2" type="checkbox" name="hobbby" value="css">
+                    <label for="css">CSS</label>
+                    <input id="area3" type="checkbox" name="hobbby" value="js">
+                    <label for="js">JS</label>
+                </div>
+
+                <div>
+                    <label class="experience-label" for="experience">Experience in years</label>
+                    <input id="experience" type="number" name="experience">
+                </div>
+                
+            </fieldset>
+        </div>
+        <br>
+        <div class="submit-div">
+            <input type="submit" value="Send" />
+        </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

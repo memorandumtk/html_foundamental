@@ -1,0 +1,12 @@
+
+
+img {
+    top: 0px;
+    bottom: 0px;
+    /* position: relative; */
+    z-index: 0;
+}
+div ~ p{
+    background-color: aqua;
+    text-decoration: line-through;
+}
